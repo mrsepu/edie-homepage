@@ -1,0 +1,399 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-weight: 500;
+    color: #2d9cdb;
+    font-size: calc(10px + (20 - 10) * ((100vw - 360px) / (1600 - 360)));
+}
+
+h2 {
+    font-weight: 500;
+    font-size: calc(23px + (60 - 23) * ((100vw - 360px) / (1600 - 360)));
+}
+
+h3 {
+    font-weight: 500;
+    font-size: calc(20px + (50 - 20) * ((100vw - 360px) / (1600 - 360)));
+    width: 70%;
+    margin-bottom: 20%;
+    margin-left: 15px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: calc(18px + (28 - 18) * ((100vw - 360px) / (1600 - 360)));
+    /* width: 70%; */
+}
+
+h6 {
+    font-weight: 500;
+    font-size: calc(10px + (15 - 10) * ((100vw - 360px) / (1600 - 360)));
+    padding-top: 5px;
+}
+
+/* Header */
+header nav a.navbar-brand {
+    font-family: 'Heebo', sans-serif;
+    font-size: calc(24px + (36 - 24) * ((100vw - 360px) / (1600 - 360)));
+}
+
+header nav ul li.nav-item {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-up{
+    width: 75%;
+    /* padding-left: 10%; */
+    margin: 20px 0;
+    margin-left: calc(10% + (150 - 10) * ((100vw - 360px) / (1600 - 360)));
+    margin-top: 30px;
+}
+
+header figure img{
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.header-down{
+    width: 55%;
+    /* padding-left: 10%; */
+    margin-left: calc(10% + (150 - 10) * ((100vw - 360px) / (1600 - 360)));
+}
+
+.header-cont{
+    width: 80%;
+    /* padding-left: 10%; */
+    margin-left: calc(10% + (150 - 10) * ((100vw - 360px) / (1600 - 360)));
+}
+
+header p{
+    font-weight: 400;
+    font-size: calc(12px + (22 - 12) * ((100vw - 360px) / (1600 - 360)));
+    margin: 25px 0;
+}
+
+.nav-contact {
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.nav-contact form {
+    width: 100%;
+}
+
+.nav-contact form input {
+    border: none;
+    background-color: #f2f2f2;
+}
+
+nav-contact form input::placeholder {
+    color: #bdbdbd;
+    font-size: 0.8rem;
+}
+
+.nav-contact form button {
+    border-radius: 12px;
+    background-color: #2d9cdb;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+}
+
+/* Main */
+main {
+    padding: 0 !important;
+}
+
+section {
+    margin: 15% 7%;
+}
+
+/* Services */
+#services .cards .card {
+    border: none;
+    margin-bottom: 15px;
+}
+
+#services .cards .card:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+#services .cards em {
+    font-size: 70px;
+    padding: 16px;
+}
+
+#services .cards .card-cont:first-child em {
+    color: #2D9CDB;
+}
+
+#services .cards .card-cont:nth-child(2) em {
+    color: #27AE60;
+}
+
+#services .cards .card-cont:last-child em {
+    color: #EB5757;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 0;
+}
+
+.card .btn {
+    background: #E0E0E0;
+    border: none;
+    border-radius: 12px;
+}
+
+.card .btn:focus {
+    box-shadow: none;
+}
+
+#services .cards .card-cont:nth-child(2) .card .btn {
+    background: #2D9CDB;
+}
+
+/* Out works */
+
+#out-works article {
+    padding: 20px 0;
+}
+
+#out-works article img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+#out-works article p { 
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (1600 - 360)));
+}
+
+#out-works a {
+    font-weight: 500;
+    font-size: calc(16px + (22 - 16) * ((100vw - 360px) / (1600 - 360)));
+    color: #2D9CDB;
+    text-decoration: none;
+    margin-left: -10px;
+}
+
+#out-works a span{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+/* Team */
+#team h2 {
+    font-size: 18px;
+    color: #EB5757;
+}
+
+#team h3 {
+    font-size: calc(30px + (55 - 30) * ((100vw - 360px) / (1600 - 360)));
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+#team p {
+    font-weight: 400;
+    font-size: calc(14px + (24 - 14) * ((100vw - 360px) / (1600 - 360)));
+    width: 80%;
+}
+
+#team img {
+    border-radius: 24px;
+    width: 95%;
+}
+
+#team div div:nth-child(2) div:nth-child(2) img:first-child {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+/* Clients */
+#clients p:first-child {
+    font-weight: 500;
+    font-size: calc(24px + (36 - 24) * ((100vw - 360px) / (1600 - 360)));
+}
+
+#clients .card {
+    border: none;
+    margin-top: 30px;
+    max-width: 300px;
+}
+#clients .card .card-body {
+    padding: 10px;
+    padding-right: 0;
+}
+
+#clients .card .card-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#clients .card .card-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
+    padding: 0;
+}
+
+#clients .card img{ 
+    border-radius: 15px;
+    width: 80%;
+}
+
+/* Footer */
+footer {
+    background-color: #100E1D;
+    color: #f2f2f2;
+}
+
+footer div > div {
+    padding: 35px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer .social {
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+footer .social a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: 'Heebo', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+footer .social img {
+    padding: 3px;
+}
+
+footer .social img:first-child {
+    padding-left: 0;
+}
+
+footer h6{
+    color: #828282;
+}
+
+footer > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+footer > p a {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+    h3 {
+        width: 45%;
+        margin-bottom: 10%;
+        margin-left: 0;
+    }
+
+    h6 {
+        padding-top: 15px;
+    }
+
+    main {
+        padding: 0 7% !important;
+    }
+
+    section {
+        margin: 15% 0;
+    }
+
+    header nav ul li.nav-item {
+        padding-left: 1rem;
+    }
+
+    .header-up {
+        width: 54%;
+    }
+
+    .header-down{
+        width: 40%;
+    }
+
+    .nav-contact form button {
+        padding: 5px 25px;
+    }
+
+    #services .cards .card {
+        padding: 15px;
+        margin-bottom: 0;
+    }
+
+    .header-cont{
+        width: 40%;
+    }
+
+    #out-works article {
+        padding: 10px;
+    }
+
+    #out-works article:nth-child(2n-1) {
+        margin-top: 15%;
+    }
+
+    #team h3 {
+        width: 80%;
+    }
+
+    #team p {
+        width: 65%;
+    }
+
+    #clients p:first-child {
+        width: 80%;
+    }
+
+    footer div > div {
+        padding: 30px 70px;
+    }
+
+    footer .social {
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+
+    footer .search {
+        padding-top: 0;
+    }
+
+    footer h6{
+        color: #f2f2f2;
+    }
+}
